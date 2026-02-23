@@ -46,7 +46,11 @@ justify-content:center;
 }
 
 /* Boxes */
-
+#contact .section-box{
+width:90%;
+max-width:800px;
+padding:40px;
+}
 .section-box{
 width:90%;
 max-width:800px;
