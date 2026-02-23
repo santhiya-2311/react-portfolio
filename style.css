@@ -239,3 +239,6 @@ font-weight:bold;
 .btn:hover{
 text-decoration:none;
 }
+.btn-box a{
+text-decoration:none;
+}
