@@ -230,3 +230,12 @@ color:#c471ed;
 color:#ff79c6;   /* ⭐ New heading color */
 margin-bottom:20px;
 }
+.btn{
+text-decoration:none;
+color:#c471ed;
+font-weight:bold;
+}
+
+.btn:hover{
+text-decoration:none;
+}
