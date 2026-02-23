@@ -1,9 +1,8 @@
-
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,sans-serif;
+font-family:Arial, sans-serif;
 }
 
 /* Background */
@@ -77,14 +76,14 @@ transform:translateY(-8px);
 box-shadow:0 0 50px rgba(196,113,237,0.7);
 }
 
-/* ⭐ Contact Section Fix */
+/* Contact Section */
 
 #contact .section-box{
 width:90%;
 max-width:800px;
 }
 
-/* ⭐ Home Box (Large Width) */
+/* ⭐ Home Box */
 
 .home-box{
 width:95%;
@@ -105,7 +104,7 @@ box-shadow:0 0 40px rgba(196,113,237,0.4);
 text-align:center;
 }
 
-/* Profile */
+/* Profile Image */
 
 .profile-img{
 width:130px;
@@ -149,7 +148,10 @@ box-shadow:0 0 10px #c471ed;
 .contact-card{
 
 width:100%;
+max-width:760px;
+
 padding:25px;
+
 margin:20px auto;
 
 border-radius:20px;
@@ -174,7 +176,13 @@ transform:translateY(-5px);
 box-shadow:0 0 35px rgba(196,113,237,0.5);
 }
 
-/* Bullet Fix */
+/* Internship Content */
+
+.internship-card p{
+line-height:1.6;
+margin-bottom:15px;
+word-break:break-word;
+}
 
 .internship-tasks{
 padding-left:25px;
@@ -186,43 +194,25 @@ line-height:1.6;
 margin-bottom:8px;
 }
 
-.internship-card{
-width:100%;
-max-width:760px;      /* ⭐ Prevents overflow */
+/* Button Box */
 
-margin:20px auto;
-
+.btn-box{
+display:inline-block;
 padding:25px;
+margin-top:25px;
 
+background:rgba(255,255,255,0.06);
 border-radius:20px;
+backdrop-filter:blur(15px);
 
 border:1px solid rgba(255,255,255,0.15);
 
-background:rgba(255,255,255,0.06);
+box-shadow:0 0 25px rgba(196,113,237,0.3);
 
-text-align:left;
-
-box-sizing:border-box;
-
-overflow:hidden;      /* ⭐ Stops content going outside */
+transition:0.3s;
 }
 
-/* Internship Paragraph */
-
-.internship-card p{
-margin-bottom:15px;
-line-height:1.6;
-word-wrap:break-word;
-}
-
-/* Internship Bullet List */
-
-.internship-tasks{
-padding-left:25px;
-margin-top:15px;
-line-height:1.6;
-}
-
-.internship-tasks li{
-margin-bottom:8px;
+.btn-box:hover{
+transform:translateY(-5px);
+box-shadow:0 0 40px rgba(196,113,237,0.6);
 }
